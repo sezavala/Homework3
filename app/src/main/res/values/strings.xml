@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Homework3</string>
+    <string name="enter_title">Enter your secret and key:</string>
+    <string name="user_secret">Enter secret text here</string>
+    <string name="user_key">Enter key here</string>
+    <string name="secret_button">Create Secret!</string>
+    <string name="encrypted_message">Encrypted message:</string>
+    <string name="result" />
+    <string name="return_button">Write another message</string>
+</resources>
