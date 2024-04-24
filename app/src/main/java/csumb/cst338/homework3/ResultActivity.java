@@ -30,7 +30,10 @@ public class ResultActivity extends AppCompatActivity{
         returnButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();            }
+                Intent i = new Intent(ResultActivity.this, MainActivity.class);
+                finish();
+                startActivity(i);
+            }
         });
     }
 }
